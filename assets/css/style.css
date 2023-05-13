@@ -47,5 +47,13 @@ table {
 	border-spacing: 0;
 }
 
-/* custom css styles */
+/* navigation */
 
+.navigation a {
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.navigation {
+    
+}
