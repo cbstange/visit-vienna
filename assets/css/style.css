@@ -48,15 +48,23 @@ table {
 }
 
 /* navigation */
-.navigation a {
-    font-size: 30px;
+nav {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+ul, li, a {
+    display: inline;
+    margin: 5px;
+    padding: 0;
     text-decoration: none;
 }
 
 /* hero image  */
+
 #home-hero-image {
-background-image: url('../images/home-hero-image.jpg');
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 1000px;
+  background: url('../images/home-hero-image.jpg') no-repeat center center;
+  height: 600px;
+  width: 100%;
 }
