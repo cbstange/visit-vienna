@@ -51,8 +51,9 @@ table {
 nav {
     display: flex;
     justify-content: space-between;
-    font-size: 20px;
+    font-size: 15px;
     text-transform: uppercase;
+    letter-spacing: 1px;
 }
 ul, li, a {
     display: inline;
@@ -60,11 +61,41 @@ ul, li, a {
     padding: 0;
     text-decoration: none;
 }
+#navigation-links li {
+    letter-spacing: 1px;
+}
+#navigation-links a:hover {
+    text-decoration: underline;
+}
+.active {
+    border-bottom: 1px solid black;
+}
 
-/* hero image  */
 
+/* hero image and cover text */
 #home-hero-image {
   background: url('../images/home-hero-image.jpg') no-repeat center center;
   height: 600px;
   width: 100%;
+}
+#cover-text, #cover-text h2 h3 {
+    color: black;
+}
+#cover-text {
+    font-size: 230%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+
+    width: 500px;
+    height: 100px;
+
+    padding: 20px 20px;
+
+    /* background-color: red; */
+
+    top: 250px;
+    right: 110px;
+
+    position: absolute;
 }
