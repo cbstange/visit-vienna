@@ -99,3 +99,8 @@ ul, li, a {
 
     position: absolute;
 }
+#attractions-hero-image {
+    background: url('../images/atractions-hero-image.jpeg') no-repeat center center;
+    height: 600px;
+    width: 100%;
+}
