@@ -50,21 +50,27 @@ table {
 /* navigation and header*/
 nav {
     display: flex;
+    padding: 2% 6%;
     justify-content: space-between;
-    font-size: 15px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+    align-items: center;
 }
-ul, li, a {
-    display: inline;
-    margin: 5px 5px;
-    padding: 2px;
+
+.navigation-links {
+        flex: 1;
+        text-align: right;
+}
+.navigation-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.navigation-links ul li a {
+    color: white;
     text-decoration: none;
+    font-size: 17px;
 }
-#navigation-links li {
-    letter-spacing: 1px;
-}
-#navigation-links a:hover {
+.navigation-links a:hover {
     text-decoration: underline;
 }
 nav img {
@@ -95,4 +101,29 @@ nav img {
 }
 .hero-text h1 {
     font-size: 80px;
+}
+/* attractions hero image */
+#attractions-hero-image {
+    min-height: 95vh;
+    width: 100%;  
+    background-image: url('../images/atractions-hero-image.jpeg');
+    background-position: left;
+    background-size: cover;
+    position: relative;
+}
+#outdoors-hero-image {
+    min-height: 95vh;
+    width: 100%;  
+    background-image: url('../images/outdoors-hero-image.jpg');
+    background-position: left;
+    background-size: cover;
+    position: relative;
+}
+#restaurants-hero-image {
+    min-height: 95vh;
+    width: 100%;  
+    background-image: url('../images/restaurant-hero-image.jpg');
+    background-position: left;
+    background-size: cover;
+    position: relative;
 }
