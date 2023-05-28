@@ -102,6 +102,7 @@ nav img {
 .hero-text h1 {
     font-size: 80px;
 }
+
 /* attractions hero image */
 #attractions-hero-image {
     min-height: 95vh;
@@ -144,7 +145,7 @@ footer {
 .social-networks i {
     font-size: 160%;
     margin: .5%;
-    padding: 5%;
+    padding: 2%;
     color: #3a3a3a;
     max-width: 700px;
 }
