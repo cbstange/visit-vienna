@@ -47,7 +47,7 @@ table {
 	border-spacing: 0;
 }
 
-/* navigation */
+/* navigation and header*/
 nav {
     display: flex;
     justify-content: space-between;
@@ -57,8 +57,8 @@ nav {
 }
 ul, li, a {
     display: inline;
-    margin: 5px;
-    padding: 0;
+    margin: 5px 5px;
+    padding: 2px;
     text-decoration: none;
 }
 #navigation-links li {
@@ -67,40 +67,32 @@ ul, li, a {
 #navigation-links a:hover {
     text-decoration: underline;
 }
-.active {
-    border-bottom: 1px solid black;
+nav img {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    width: 40px;
 }
 
-
-/* hero image and cover text */
-#home-hero-image {
-  background: url('../images/home-hero-image.jpg') no-repeat center center;
-  height: 600px;
-  width: 100%;
+/* hero image  */
+.header {
+    min-height: 95vh;
+    width: 100%;  
+    background-image: url('../images/home-hero-image.jpg');
+    background-position: left;
+    background-size: cover;
+    position: relative;
 }
-#cover-text, #cover-text h2 h3 {
-    color: black;
-}
-#cover-text {
-    font-size: 230%;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    text-align: center;
-
-    width: 500px;
-    height: 100px;
-
-    padding: 20px 20px;
-
-    /* background-color: red; */
-
-    top: 250px;
-    right: 110px;
-
+.hero-text {
+    width: 90%;
+    color: #fff;
     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
 }
-#attractions-hero-image {
-    background: url('../images/atractions-hero-image.jpeg') no-repeat center center;
-    height: 600px;
-    width: 100%;
+.hero-text h1 {
+    font-size: 80px;
 }
