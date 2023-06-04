@@ -64,19 +64,20 @@ nav {
         font-family: 'Raleway', sans-serif;
 }
 .navigation-links ul li {
-    list-style: none;
+    border: 1px solid rgba(207, 193, 193, 0.533);
+    background-color: rgba(255, 251, 251, 0.739);
+    border-radius: 10px;
+    color: rgb(92, 85, 85);
     display: inline-block;
-    padding: 8px 12px;
-    position: relative;
+    padding: 8px 8px;
+    text-decoration: none;
+    margin: 25px 10px;
 }
 .navigation-links ul li a {
-    color: white;
+    color: black;
     text-decoration: none;
     font-size: 17px;
     font-weight: 300;
-}
-.navigation-links a:hover {
-    text-decoration: underline;
 }
 nav img {
     display: flex;
@@ -98,6 +99,11 @@ nav img {
 .hero-text {
     width: 90%;
     color: #fff;
+    text-shadow: 
+        -1px 0px 0px black,
+        1px 0px 0px black,
+        0px -1px 0px black,
+        0px 1px 0px black;color: white;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -158,8 +164,12 @@ footer {
 
 /* media queries */
 @media(max-width: 500px) {
-    .navigation-links ul li {
-        display: block;
+    .navigation-links ul li{
+        display: flex;
+        flex-wrap: wrap-reverse;
         text-align: right;
+        flex-direction: column;
+        justify-content: none;
+        margin: 5px;
 }
 }
