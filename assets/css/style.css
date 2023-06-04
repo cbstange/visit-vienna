@@ -190,9 +190,16 @@ h3 {
 /* home media row  */
 .home-media-row {
     display: flex;
+    justify-content: space-evenly;
+    padding: 40px 0;
+    margin: 5px;
+    width: 100%;
+}
+
+#home-video {
+    display: flex;
     justify-content: center;
-    padding: 40px;
-    margin: 10px;
+    width: 100%;
 }
 
 /* footer  */
@@ -227,7 +234,7 @@ footer {
         margin: 10px;
         margin-left: 300px;
 }
-}
+
 @media(max-width: 1117px) {
     .row {
         display: flex;
