@@ -195,11 +195,16 @@ h3 {
     margin: 5px;
     width: 100%;
 }
-
 #home-video {
     display: flex;
     justify-content: center;
     width: 100%;
+}
+
+/* Restaurant */
+.portrait-pic {
+    object-fit: cover;
+    
 }
 
 /* footer  */
