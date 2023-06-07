@@ -185,6 +185,10 @@ h3 {
 }
 .item-description {
     padding-top: 20px;
+    text-align: left;
+}
+.item-description h2 {
+    font-weight: 700;
 }
 
 /* home media row  */
@@ -204,7 +208,7 @@ h3 {
 /* Restaurant */
 .portrait-pic {
     object-fit: cover;
-    
+
 }
 
 /* footer  */
@@ -245,4 +249,5 @@ footer {
         display: flex;
         flex-direction: column;
     }
+    
 }
