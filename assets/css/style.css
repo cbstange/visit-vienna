@@ -86,6 +86,10 @@ nav img {
     width: 40px;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* home hero image  */
 .header {
     min-height: 95vh;
