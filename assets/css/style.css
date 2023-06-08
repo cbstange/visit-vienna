@@ -161,7 +161,7 @@ h3 {
     font-size: 30px;
     padding: 16px;
 }
-.colums {
+.columns {
     flex-basis: 32%;
     border-radius: 10px;
     margin-bottom: 30px;
@@ -169,7 +169,7 @@ h3 {
     position: relative;
     overflow: hidden;
 }
-.colums img {
+.columns img {
     width: 100%;
     height: 80%;
     padding-top: 35px;

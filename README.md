@@ -1,4 +1,4 @@
-![Austrian flag logo](../visit-vienna/assets/images/austria-readme-logo.jpg) 
+![Austrian flag logo](assets/images/austria-readme-logo.jpg) 
 # Visit Vienna
 add description here. intent. who it's for
 
