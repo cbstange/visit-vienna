@@ -96,8 +96,6 @@ nav img {
     position: relative;
 }
 .hero-text {
-    /* width: 90%; */
-    color: #fff;
     background-color: rgb(21 3 3 / 0.4);
     width: auto;
     display: inline-block;
@@ -117,6 +115,7 @@ nav img {
 }
 .hero-text h1 {
     font-size: 80px;
+    color: rgba(250, 249, 235, 1);
     font-family: 'Raleway', sans-serif;
 }
 .hero-text p {
