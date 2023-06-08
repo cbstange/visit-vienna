@@ -1,10 +1,15 @@
-![Austrian flag logo](assets/images/austria-readme-logo.jpg) 
+# ![Austrian flag logo](assets/images/austria-readme-logo.jpg)
+
 # Visit Vienna
+
 add description here. intent. who it's for
 
-## Features: 
+## Features:
+
 In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+
 ### include screenshots of each page here
+
 ## Features for the future I'd like to add
 
 ## Testing
