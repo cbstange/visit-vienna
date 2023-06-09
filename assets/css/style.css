@@ -59,6 +59,7 @@ header {
     min-height: 95vh;
     width: 100%;  
     padding-top: 10px;
+    margin: none;
     background-image: url('../images/home-hero-image.jpg');
     background-position: left;
     background-size: cover;
@@ -77,6 +78,20 @@ header .navbar a {
      margin-right: 20px;
 }
 
+header .navbar a:hover {
+    background-color: black;
+    transition: 0.3s;
+}
+
+.navbar {
+    margin-top: 8px;
+}
+
+.navbar a {
+    padding: 5px 8px;
+    border-radius: 10px;
+    background-color: rgb(21 3 3 / 0.4);
+}
 a {
     text-decoration: none;
 }
@@ -100,11 +115,13 @@ a {
     text-align: center;
     font-family: 'Raleway', sans-serif;
 }
+
 .hero-text h1 {
     font-size: 80px;
     color: rgba(250, 249, 235, 1);
     font-family: 'Raleway', sans-serif;
 }
+
 .hero-text p {
     font-size: 30px;
     font-family: 'Raleway', sans-serif;
@@ -119,6 +136,7 @@ a {
     background-size: cover;
     position: relative;
 }
+
 #outdoors-hero-image {
     min-height: 95vh;
     width: 100%;  
@@ -127,6 +145,7 @@ a {
     background-size: cover;
     position: relative;
 }
+
 #restaurants-hero-image {
     min-height: 95vh;
     width: 100%;  
@@ -135,6 +154,7 @@ a {
     background-size: cover;
     position: relative;
 }
+
 .attractions {
     width: 80%;
     margin: auto;
@@ -148,6 +168,7 @@ h3 {
     font-size: 30px;
     padding: 16px;
 }
+
 .columns {
     flex-basis: 32%;
     border-radius: 10px;
@@ -155,16 +176,19 @@ h3 {
     padding: 20px;
     position: relative;
 }
+
 .columns img {
     width: 100%;
     height: 80%;
     padding-top: 35px;
 }
+
 .row {
     margin-top: 5%;
     display: flex;
     justify-content: space-between;
 }
+
 .item-name {
     background: transparent;
     height: 100%;
@@ -175,10 +199,12 @@ h3 {
     transition: 0.5s;
     color: black;
 }
+
 .item-description {
     padding-top: 20px;
     text-align: left;
 }
+
 .item-description h2 {
     font-weight: 700;
 }
@@ -188,13 +214,15 @@ h3 {
     display: flex;
     justify-content: space-evenly;
     padding: 40px 0;
-    margin: 5px;
+    /* margin: 5px 5px; */
     width: 100%;
 }
-#home-video {
+
+.home-video {
     display: flex;
     justify-content: center;
     width: 100%;
+    margin: none;
 }
 
 /* footer  */
@@ -220,7 +248,7 @@ footer {
 }
 
 /* media queries */
-@media(max-width: 500px) {
+@media(max-width: 530px) {
     nav.navbar {
         display: flex;
         flex-direction: column;
@@ -228,6 +256,7 @@ footer {
         padding: 10px;
     }
     nav.navbar a {
-        padding: 5px;
+        margin: 8px;
+        text-align: center;
     }
 }
