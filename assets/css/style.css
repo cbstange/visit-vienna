@@ -96,6 +96,10 @@ a {
     text-decoration: none;
 }
 
+a, a:visited{
+    color: black;
+}
+
 /* home hero image  */
 .hero-text {
     background-color: rgb(21 3 3 / 0.4);
