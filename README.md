@@ -2,17 +2,44 @@
 
 # Visit Vienna
 
-add description here. intent. who it's for
+"Visit Vienna" is a site to offer users a concise visitor's guide which includes some popular attractions, restaurants and outdoor activities. "Visit Vienna" is intended for travelers with limited times who are looking for a quick overview of activities for their visit.
 
-![Website responsiveness](.//assets/images/readme-responsive.png)
+![Responsive Mockup](.//assets/images/readme-responsive.png)
 
-## Features:
+## Existing Features:
+- ### Navigation Bar
+  - Featured on all four pages, the navigation bar is fully responsive and includes a image that brings you back to the home screen and links for all other pages: Attractions, Restaurants and Outdoors.
+  - The navigation bar's structure is meant to be familiar to users: when a user visits the site, it is clear how to navigate each page.
+  - To add to usability, a hover effect was added so there is feedback to the user has they choose which page to visit.
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+![Navigation bar](.//assets/images/readme-navbar.png)
+- ### Landing page image
+  - The home page features a photo of the Vienna skyline at dusk with a transparent text overlay containing Vienna, Austria and a small fact about the city.
 
-### include screenshots of each page here
+![Index hero image](.//assets/images/readme-index-hero.png)
+- ### Landing page video
+  - The home page includes a short, embedded YouTube video showing some highlights of Vienna meant to get the user excited about visiting the city.
 
-## Features for the future I'd like to add
+![Index youtube video](.//assets/images/readme-index-content.png)
+- ### Pages
+  - Each page features a large, beautiful hero image and below there is a content section featuring three columns each containing an attraction.
+  - Each content item includes a clickable title, photo and short description. 
+
+- ### Attractions page
+![Attractions page hero image](.//assets/images/readme-attractions-hero.png)
+![Attractions page content image](.//assets/images/readme-attractions-content.png)
+
+- ### Restaurants page
+![Restaurant page hero image](.//assets/images/readme-restaurant-hero.png)
+![Restaurant page content image](.//assets/images/readme-restaurant-content.png)
+ 
+ - ### Outdoors page
+![Outdoors page hero image](.//assets/images/readme-outdoor-hero.png)
+![Outdoors page content image](.//assets/images/readme-outdoor-content.png)
+
+- ### Footer
+  - The footer is visually simple and contains three icons with links to social media accounts for the City of Vienna. All links open in a new tab.
+![Footer image](.//assets/images/readme-socials.png)
 
 ## Testing
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
