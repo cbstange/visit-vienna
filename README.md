@@ -2,7 +2,7 @@
 
 # Visit Vienna
 
-"Visit Vienna" is a site to offer users a concise visitor's guide which includes some popular attractions, restaurants and outdoor activities. "Visit Vienna" is intended for travelers with limited times who are looking for a quick overview of activities for their visit.
+### "Visit Vienna" is a site to offer users a concise visitor's guide which includes some popular attractions, restaurants and outdoor activities. "Visit Vienna" is intended for travelers with limited times who are looking for a quick overview of activities for their visit.
 
 ![Responsive Mockup](.//assets/images/readme-responsive.png)
 
@@ -39,35 +39,36 @@
 
 - ### Footer
   - The footer is visually simple and contains three icons with links to social media accounts for the City of Vienna. All links open in a new tab.
+
 ![Footer image](.//assets/images/readme-socials.png)
 
 ## Testing
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+Throughout the entire process, I utilized the Chrome Developer Tools to verify the site's:
+  - Responsiveness on different screen sizes and mobile devices
+    - When there was unexpected behavior when shriking the screen size, I knew at which screen size I needed to add a media query.
+  - Lighthouse was used to rate the site's accessibility and efficiency.
 
 ## Validator Testing
 #### HTML
-No errors were returned when passing through the official W3C validator
+- No errors were returned when passing through the official W3C validator.
 #### CSS
-No errors were found when passing through the official (Jigsaw) validator
+- No errors were found when passing through the official (Jigsaw) validator.
 
 ## Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)
-
 The site was deployed to GitHub pages. The steps to deploy are as follows:
-In the GitHub repository, navigate to the Settings tab
+- In the GitHub repository, navigate to the Settings tab
 From the source section drop-down menu, select the Master Branch
 Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html
+- The live link can be found here - https://cbstange.github.io/visit-vienna/
 
 ## Credits
 ### Media
-Images, video, social links footer
-#### The text for the Home page was taken from Wikipedia Article A
-Instructions on how to implement form validation on the Sign Up page was taken from Specific YouTube Tutorial
-The icons in the footer were taken from Font Awesome
+- Images were sourced from [Unsplash](https://unsplash.com/) which is a site that provides free images so there are no copywrite violations.
+- The video on the index.html splash screen was sourced from a [Youtube](https://www.youtube.com/watch?v=nK_SLrX4Pfc) channel called "Cities of the World".
+
+### Content
+- The code for the footer socials was taken from the Code Institue ["Love Running"](https://code-institute-org.github.io/love-running-2.0/index.html) sample project.
+- Fonts were sourced from [Google Fonts.](https://fonts.google.com/)
+- Font and background colors were sourced from [Coolors.](https://coolors.co/)
+- Descriptions for each of the recommendations on the site were inspired by [The City of Vienna's Homepage.](https://www.wien.info/de?fbclid=IwAR2pgHbrho6MsR38oeZCxlwGr5lFF47vXAEo9Y_W17FoFtc7zmHG8U5pJt4)
+- Navigation bar was inspired by this [YouTube](https://www.youtube.com/watch?v=PwWHL3RyQgk&t=428s) tutorial by "Skillthrive".
