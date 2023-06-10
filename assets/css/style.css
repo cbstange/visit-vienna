@@ -59,7 +59,7 @@ header {
     min-height: 95vh;
     width: 100%;  
     padding-top: 10px;
-    margin: none;
+    margin: 0;
     background-image: url('../images/home-hero-image.jpg');
     background-position: left;
     background-size: cover;
@@ -226,7 +226,7 @@ h3 {
     display: flex;
     justify-content: center;
     width: 100%;
-    margin: none;
+    margin: 0;
 }
 
 /* footer  */
