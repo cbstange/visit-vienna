@@ -6,6 +6,10 @@
 
 ![Responsive Mockup](.//assets/images/readme-responsive.png)
 
+## Planning
+Before starting the project, I went through my old photos of living in Vienna for inspiration and also researched a number of Vienna travel websites. I used Balsamiq to create a
+[wireframe](.//assets/planning/Visit%20Vienna%20.pdf) which can be found in the planning folder in "assets".
+
 ## Existing Features:
 - ### Navigation Bar
   - Featured on all four pages, the navigation bar is fully responsive and includes a image that brings you back to the home screen and links for all other pages: Attractions, Restaurants and Outdoors.
@@ -72,3 +76,5 @@ Once the master branch has been selected, the page will be automatically refresh
 - Font and background colors were sourced from [Coolors.](https://coolors.co/)
 - Descriptions for each of the recommendations on the site were inspired by [The City of Vienna's Homepage.](https://www.wien.info/de?fbclid=IwAR2pgHbrho6MsR38oeZCxlwGr5lFF47vXAEo9Y_W17FoFtc7zmHG8U5pJt4)
 - Navigation bar was inspired by this [YouTube](https://www.youtube.com/watch?v=PwWHL3RyQgk&t=428s) tutorial by "Skillthrive".
+- CSS reset was used from [Meyer Web](http://meyerweb.com/eric/tools/css/reset/).
+- Wireframes were created using [Balsamiq](https://balsamiq.com/).
