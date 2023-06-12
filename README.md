@@ -25,7 +25,7 @@ Before starting the project, I went through my old photos of living in Vienna fo
   - The home page includes a short, embedded YouTube video showing some highlights of Vienna meant to get the user excited about visiting the city.
 
 ![Index youtube video](.//assets/images/readme-index-content.png)
-- ### Pages
+- ### Subsequent Pages
   - Each page features a large, beautiful hero image and below there is a content section featuring three columns each containing an attraction.
   - Each content item includes a clickable title, photo and short description. 
 
