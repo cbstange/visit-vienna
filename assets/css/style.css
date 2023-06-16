@@ -170,6 +170,15 @@ section a #contact-section img {
     position: relative;
 }
 
+#contact-hero-image {
+    min-height: 95vh;
+    width: 100%;  
+    background-image: url('../images/contact-us-hero.jpg');
+    background-position: left;
+    background-size: cover;
+    position: relative;
+}
+
 .attractions {
     width: 80%;
     margin: auto;
@@ -264,27 +273,34 @@ footer {
 
 /* contact form  */
 .signup-form {
-    margin: 150px 10% 0 0;
-    color: #fff;
-    background-color: rgba(60, 60, 60, 0.6);
-    max-width: 400px;
-    position: absolute;
-    left: 10%;
-    padding: 30px;
+    background-color: rgb(21 3 3 / 0.4);
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    padding: 12px 12px;
+    border-radius: 15px;
+    text-shadow: -1px 0px 0px black, 1px 0px 0px black, 0px -1px 0px black, 0px 1px 0px black;
+    color: white;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
 }
 
-.signup-form > h1 {
-    color: #fafafa;
-    margin-bottom: 20px;
+.signup-form div {
+    padding-top: 6px;
+    text-align: left;
 }
+
 
 .form-section {
-    clear: left;
-    background-image: url(../images/contact-us-hero.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
+    display: flex;
+    flex-basis: auto;
+    width: 100%;
 }
+
 
 /* media queries */
 @media(max-width: 660px) {
