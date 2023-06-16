@@ -15,18 +15,21 @@
     <title>Contact us</title>
 </head>
 <body>
-    <header class="subtle-gray-gradient">
-        <!-- nav links -->
-        <a class="logo" href="index.html"><img src="./assets/images/austria-flag.png" alt="Austrian flag"></a>
-    </header>
-    <form class="contact-form" action="push">
-        <h1>Contact Us</h1>
-        <input type="text" name="first" placeholder="First name" autocomplete="off" required>
-        <input type="text" name="last" placeholder="Last name" autocomplete="off" required>
-        <input type="email" name="email" placeholder="Email" autocomplete="off" required>
-        <input type="text" name="message" placeholder="Enter your message" autocomplete="off" required>
-        <button type="submit" placeholder="submit">Submit</button>
-    </form>
+    <section class="form-section">
+        <form class="signup-form" method="POST" action="#">
+            <h1>Contact Us</h1>
+            <label for="first-name">First Name</label>
+            <input id="first-name" class="text-input" type="text" name="first_name" required />
+            <label for="last-name">Last Name</label>
+            <input id="last-name" class="text-input" type="text"  name="last_name" required />
+            <label for="email">Email Address</label>
+            <input id="email" class="text-input" type="email" name="email_address" required/>
+            <label for="message">Message</label>
+            <input id="message" class="text-input" type="text"  name="message" required />
+            <button type="submit">Submit</button>
+            
+        </form>
+ </section> 
 
 </body>
 </html>
