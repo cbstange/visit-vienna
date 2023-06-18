@@ -41,16 +41,29 @@ Before starting the project, I went through my old photos of living in Vienna fo
 ![Outdoors page hero image](.//assets/images/readme-outdoor-hero.png)
 ![Outdoors page content image](.//assets/images/readme-outdoor-content.png)
 
+ - ### Contact Us page
+   - The "Contact Us" page includes a simple form where the user can request more information on the content shown on the site. The form uses validation and includes a "reset" button to clear the form.
+
+![Contact us image](./assets/images/readme-contact-us.png)
+
+- ### Thank You page
+  - The "Thank You" page simply confirms the form was submitted successfully. There is a link to return to the home page as well.
+
+![Thank you image](./assets/images/readme-submit.png)
+
 - ### Footer
   - The footer is visually simple and contains three icons with links to social media accounts for the City of Vienna. All links open in a new tab.
 
 ![Footer image](.//assets/images/readme-socials.png)
 
-## Testing
+## Testing & Bugs
 Throughout the entire process, I utilized the Chrome Developer Tools to verify the site's:
   - Responsiveness on different screen sizes and mobile devices
     - When there was unexpected behavior when shriking the screen size, I knew at which screen size I needed to add a media query.
   - Lighthouse was used to rate the site's accessibility and efficiency.
+  - Bugs
+    - Sizing and font for the navigation bar had differenced between the home page and subsequent pages. The bug was resolved by adding the Google Font link to all subsequent pages.
+    - Form validation was not functioning - form could be submitted in any state. The bug was due to the submit input being outside the form element.
 
 ## Validator Testing
 #### HTML
