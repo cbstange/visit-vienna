@@ -8,7 +8,7 @@
 
 ## Planning
 Before starting the project, I went through my old photos of living in Vienna for inspiration and also researched a number of Vienna travel websites. I used Balsamiq to create a
-[wireframe](.//assets/planning/Visit%20Vienna%20.pdf) which can be found in the planning folder in "assets".
+[wireframe](.//assets/planning/visit_vienna.pdf) which can be found in the planning folder in "assets".
 
 ## Existing Features:
 - ### Navigation Bar
@@ -71,6 +71,9 @@ Throughout the entire process, I utilized the Chrome Developer Tools to verify t
 #### CSS
 - No errors were found when passing through the official (Jigsaw) validator.
 
+#### Accesibility
+-WAVE and Lighthouse were used in Chrome to test accessibility of the site.
+
 ## Deployment
 The site was deployed to GitHub pages. The steps to deploy are as follows:
 - In the GitHub repository, navigate to the Settings tab
@@ -82,11 +85,14 @@ Once the master branch has been selected, the page will be automatically refresh
 ### Media
 - Images were sourced from [Unsplash](https://unsplash.com/) which is a site that provides free images so there are no copywrite violations.
 - The video on the index.html splash screen was sourced from a [Youtube](https://www.youtube.com/watch?v=nK_SLrX4Pfc) channel called "Cities of the World".
+- Development
+  - GIT was used for version control.
+  - CodeAnywhere was the IDE used for development.
 
 ### Content
 - The code for the footer socials was taken from the Code Institue ["Love Running"](https://code-institute-org.github.io/love-running-2.0/index.html) sample project.
 - Fonts were sourced from [Google Fonts.](https://fonts.google.com/)
-- Font and background colors were sourced from [Coolors.](https://coolors.co/)
+- Text and background colors were sourced from [Coolors.](https://coolors.co/)
 - Descriptions for each of the recommendations on the site were inspired by [The City of Vienna's Homepage.](https://www.wien.info/de?fbclid=IwAR2pgHbrho6MsR38oeZCxlwGr5lFF47vXAEo9Y_W17FoFtc7zmHG8U5pJt4)
 - Navigation bar was inspired by this [YouTube](https://www.youtube.com/watch?v=PwWHL3RyQgk&t=428s) tutorial by "Skillthrive".
 - CSS reset was used from [Meyer Web](http://meyerweb.com/eric/tools/css/reset/).
